@@ -48,14 +48,14 @@
     </dependencies>
 
     <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <mainClass>com.hct.projects.CinemaBookingAppApplication</mainClass>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-</project>
+  <plugins>
+    <plugin>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-maven-plugin</artifactId>
+      <version>3.4.4</version>
+      <configuration>
+        <mainClass>com.hct.projects.CinemaBookingAppApplication</mainClass>
+      </configuration>
+    </plugin>
+  </plugins>
+</build>
